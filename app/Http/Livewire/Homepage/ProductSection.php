@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Livewire;
+namespace App\Http\Livewire\Homepage;
 
 use Livewire\Component;
 
@@ -8,6 +8,6 @@ class ProductSection extends Component
 {
     public function render()
     {
-        return view('livewire.product-section');
+        return view('livewire.homepage.product-section');
     }
 }

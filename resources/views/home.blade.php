@@ -22,20 +22,20 @@
         @livewireStyles
     </head>
     <body>
-        <!-- <livewire:pre-loader /> -->
-        <livewire:navbar />
-        <livewire:search-area />
-        <livewire:homepage-slider />
-        <livewire:list-section />
-        <livewire:product-section />
-        <livewire:cart-banner />
-        <livewire:testimonail-section />
-        <livewire:advertisement-section />
-        <livewire:shop-banner />
-        <livewire:lastest-news />
-        <livewire:logo-carousel />
-        <livewire:footer />
-        <livewire:copyright />
+        <!-- <livewire:pre-loader.pre-loader /> -->
+        <livewire:navbar.navbar />
+        <livewire:search-area.search-area />
+        <livewire:homepage.slider />
+        <livewire:homepage.list-section />
+        <livewire:homepage.product-section />
+        <livewire:homepage.cart-banner />
+        <livewire:homepage.testimonail-section />
+        <livewire:homepage.advertisement-section />
+        <livewire:homepage.shop-banner />
+        <livewire:homepage.latest-news />
+        <livewire:homepage.logo-carousel />
+        <livewire:footer.footer />
+        <livewire:copyright.copyright />
 
         @livewireScripts
     </body>
