@@ -5,7 +5,7 @@
 					<div class="testimonial-sliders">
 						<div class="single-testimonial-slider">
 							<div class="client-avater">
-								<img src="assets/img/avaters/avatar1.png" alt="">
+								<img src="{{ URL::asset('img/avaters/avatar1.png') }}" alt="">
 							</div>
 							<div class="client-meta">
 								<h3>Saira Hakim <span>Local shop owner</span></h3>
@@ -19,7 +19,7 @@
 						</div>
 						<div class="single-testimonial-slider">
 							<div class="client-avater">
-								<img src="assets/img/avaters/avatar2.png" alt="">
+								<img src="{{ URL::asset('img/avaters/avatar2.png') }}" alt="">
 							</div>
 							<div class="client-meta">
 								<h3>David Niph <span>Local shop owner</span></h3>
@@ -33,7 +33,7 @@
 						</div>
 						<div class="single-testimonial-slider">
 							<div class="client-avater">
-								<img src="assets/img/avaters/avatar3.png" alt="">
+								<img src="{{ URL::asset('img/avaters/avatar3.png') }}" alt="">
 							</div>
 							<div class="client-meta">
 								<h3>Jacob Sikim <span>Local shop owner</span></h3>

@@ -10,19 +10,19 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
-        <link rel="stylesheet" href="../css/all.min.css">
-        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/owl.carousel.css">
-        <link rel="stylesheet" href="../css/magnific-popup.css">
-        <link rel="stylesheet" href="../css/animate.css">
-        <link rel="stylesheet" href="../css/meanmenu.min.css">
-        <link rel="stylesheet" href="../css/main.css">
-        <link rel="stylesheet" href="../css/responsive.css">
+        <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/all.min.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/owl.carousel.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/magnific-popup.css')}}">
+        <link rel="stylesheet" href="{{ URL::asset('css/animate.css')}}">
+        <link rel="stylesheet" href="{{ URL::asset('css/meanmenu.min.css')}}">
+        <link rel="stylesheet" href="{{ URL::asset('css/main.css')}}">
+        <link rel="stylesheet" href="{{ URL::asset('css/responsive.css')}}">
 
         @livewireStyles
     </head>
     <body>
-        <livewire:pre-loader />
+        <!-- <livewire:pre-loader /> -->
         <livewire:navbar />
         <livewire:search-area />
         <livewire:homepage-slider />

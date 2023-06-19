@@ -11,7 +11,7 @@
                                 </span>
                             </div>
                         </div>
-                    	<img src="assets/img/a.jpg" alt="">
+                    	<img src="{{ URL::asset('img/a.jpg') }}" alt="">
                     </div>
                 </div>
                 <!--Content Column-->
