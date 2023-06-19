@@ -25,18 +25,15 @@
         <livewire:pre-loader.pre-loader />
         <livewire:navbar.navbar />
         <livewire:search-area.search-area />
-        <livewire:homepage.slider />
-        <livewire:homepage.list-section />
-        <livewire:homepage.product-section />
-        <livewire:homepage.cart-banner />
-        <livewire:homepage.testimonail-section />
-        <livewire:homepage.advertisement-section />
-        <livewire:homepage.shop-banner />
-        <livewire:homepage.latest-news />
-        <livewire:homepage.logo-carousel />
+        <livewire:about.breadcrumb-section />
+        <livewire:about.featured-section />
+        <livewire:about.shop-banner />
+        <livewire:about.team-section />
+        <livewire:about.testimonail-section />
+        <livewire:about.logo-carousel />
         <livewire:footer.footer />
         <livewire:copyright.copyright />
-
+        
         <script src="{{ URL::asset('js/jquery-1.11.3.min.js') }}"></script>
         <!-- bootstrap -->
         <script src="{{ URL::asset('bootstrap/js/bootstrap.min.js') }}"></script>
