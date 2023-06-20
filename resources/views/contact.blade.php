@@ -25,8 +25,10 @@
         <livewire:pre-loader.pre-loader />
         <livewire:navbar.navbar />
         <livewire:search-area.search-area />
-        <livewire:cart.breadcrumb-section />
-
+        <livewire:contact.breadcrumb-section />
+        <livewire:contact.contact-form />
+        <livewire:contact.google-map-section />
+        <livewire:contact.our-location />
         <livewire:footer.footer />
         <livewire:copyright.copyright />
         

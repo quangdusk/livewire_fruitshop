@@ -25,8 +25,9 @@
         <livewire:pre-loader.pre-loader />
         <livewire:navbar.navbar />
         <livewire:search-area.search-area />
-        <livewire:cart.breadcrumb-section />
-
+        <livewire:news.breadcrumb-section />
+        <livewire:news.latest-news />
+        <livewire:news.logo-carousel />
         <livewire:footer.footer />
         <livewire:copyright.copyright />
         

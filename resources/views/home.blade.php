@@ -53,7 +53,7 @@
         <!-- mean menu -->
         <script src="{{ URL::asset('js/jquery.meanmenu.min.js') }}"></script>
         <!-- sticker js -->
-        <script src="{{ URL::asset('js/sticker.js') }}"></script>{
+        <script src="{{ URL::asset('js/sticker.js') }}"></script>
         <!-- main js -->
         <script src="{{ URL::asset('js/main.js') }}"></script>
         @livewireScripts

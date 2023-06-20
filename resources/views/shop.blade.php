@@ -25,8 +25,9 @@
         <livewire:pre-loader.pre-loader />
         <livewire:navbar.navbar />
         <livewire:search-area.search-area />
-        <livewire:cart.breadcrumb-section />
-
+        <livewire:shop.breadcrumb-section />
+        <livewire:shop.logo-carousel />
+        <livewire:shop.products />
         <livewire:footer.footer />
         <livewire:copyright.copyright />
         

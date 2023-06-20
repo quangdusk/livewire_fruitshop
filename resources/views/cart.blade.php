@@ -26,7 +26,8 @@
         <livewire:navbar.navbar />
         <livewire:search-area.search-area />
         <livewire:cart.breadcrumb-section />
-
+        <livewire:cart.cart />
+        <livewire:cart.logo-carousel />
         <livewire:footer.footer />
         <livewire:copyright.copyright />
         
