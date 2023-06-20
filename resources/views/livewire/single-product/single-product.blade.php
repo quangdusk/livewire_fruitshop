@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="single-product-img">
-                    <img src="assets/img/products/product-img-5.jpg" alt="">
+                    <img src="{{ URL::asset('img/products/product-img-5.jpg') }}" alt="">
                 </div>
             </div>
             <div class="col-md-7">
