@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="cart.html" class="cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                <a class="add-cart-large cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
             </div>
         </div>
     </div>
