@@ -14,8 +14,8 @@
                     <!-- menu start -->
                     <nav class="main-menu">
                         <ul>
-                            <li class="current-list-item"><a href="/">Home</a></li>
-                            <li><a href="/about">About</a></li>
+                            <li class="current-list-item"><a href="/">Trang chủ</a></li>
+                            <li><a href="/about">Về chúng tôi</a></li>
                             <li><a href="#">Pages</a>
                                 <ul class="sub-menu">
                                     <li><a href="/not-found">404 page</a></li>
@@ -27,13 +27,13 @@
                                     <li><a href="/shop">Shop</a></li>
                                 </ul>
                             </li>
-                            <li><a href="/news">News</a>
+                            <li><a href="/news">Tin tức</a>
                                 <ul class="sub-menu">
                                     <li><a href="/news">News</a></li>
                                     <li><a href="/single-news">Single News</a></li>
                                 </ul>
                             </li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li><a href="/contact">Liên hệ</a></li>
                             <li><a href="/shop">Shop</a>
                                 <ul class="sub-menu">
                                     <li><a href="/shop">Shop</a></li>
