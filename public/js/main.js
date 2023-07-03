@@ -6,10 +6,10 @@
         $('.add-cart-large').each(function(i, el){
             $(el).click(function(){
                 var carousel = $(this).parent().parent().find(".carousel-container");
-                var img = carousel.find('img').eq(carousel.attr("rel"))[0];
+                var img = carousel.find('img')[0];
                 var position = $(img).offset();
 
-                var productName = $(this).parent().find('h4').get(0).innerHTML;
+                var productName = $(this).parent().find('h3').get(0).innerHTML;
 
                 $("body").append('<div class="floating-cart"></div>');
                 var cart = $('div.floating-cart');
@@ -45,8 +45,6 @@
                 }, 10 );
 
             }, 1000);
-
-
             });
         })
 

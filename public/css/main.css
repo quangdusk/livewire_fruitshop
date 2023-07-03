@@ -2783,3 +2783,110 @@ table.order-details tbody td {
            transition: all 200ms ease-out;
           cursor:pointer;
 }
+
+div.floating-cart{
+	position:absolute;
+	top:0;
+	left:0;
+	width:315px;
+	height:480px;
+	background:#fff;
+	z-index:2000;
+	overflow:hidden;
+	box-shadow:0px 5px 31px -1px rgba(0, 0, 0, 0.15);
+	display:none;
+}
+
+div.floating-cart .stats-container{display:none;}
+div.floating-cart .product-front{width:100%; top:0; right:0;}
+div.floating-cart.moveToCart{
+	right: 0px !important;
+	top: 355px !important;
+	width: 47px;
+	height: 47px;
+	-webkit-transition: all 800ms ease-in-out;
+	   -moz-transition: all 800ms ease-in-out;
+		-ms-transition: all 800ms ease-in-out;
+		 -o-transition: all 800ms ease-in-out;
+ 		    transition: all 800ms ease-in-out;
+}
+
+.floating-image-large{
+	position:absolute;
+	top:0;
+	right:0;
+	width:100%;
+}
+
+.cart-item .img-wrap{
+	width:50px;
+	height:50px;
+	overflow:hidden;
+	border:1px solid #edeff0;
+	float:left;
+	margin-right:-65px;
+}
+
+body.MakeFloatingCart div.cart-icon-top{z-index:30;}
+body.MakeFloatingCart div.cart-icon-bottom{z-index:300;}
+
+body.MakeFloatingCart div.floating-cart.moveToCart{
+	left: 90px !important;
+	top: 140px !important;
+	width: 21px;
+	height: 22px;
+	box-shadow:0px 5px 31px -1px rgba(0, 0, 0, 0);
+	-webkit-transition: all 200ms ease-out;
+	   -moz-transition: all 200ms ease-out;
+		-ms-transition: all 200ms ease-out;
+		 -o-transition: all 200ms ease-out;
+ 		    transition: all 200ms ease-out;
+}
+
+.cart-item{
+	padding: 11px 0 5px 110px;
+	height: 62px;
+	width: 210px;
+	margin-left: -45px;
+	position:relative;
+	background:#fff;
+	-webkit-transition: all 1000ms ease-out;
+	   -moz-transition: all 1000ms ease-out;
+		-ms-transition: all 1000ms ease-out;
+		 -o-transition: all 1000ms ease-out;
+ 		    transition: all 1000ms ease-out;
+}
+.cart-item.flash{background:#fffeb0;}
+.cart-item-border{
+	position:absolute;
+	bottom:0;
+	left:45px;
+	background:#edeff0;
+	height: 1px;
+	width: 230px;
+}
+.cart-item .img-wrap{
+	width:50px;
+	height:50px;
+	overflow:hidden;
+	border:1px solid #edeff0;
+	float:left;
+	margin-left:-65px;
+}
+.cart-item img{width:100%; position:relative;top:-10px;}
+.cart-item strong{color:#5ff7d2; font-size:16px;}
+.cart-item span{
+	color: #393c45;
+    display: block;
+    font-size: 14px;
+ }
+
+.cart-item .delete-item{
+	background:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/delete-item.png") 0 0 no-repeat;
+	width:15px;
+	height:15px;
+	float:right;
+	margin-right:18px;
+	display:none;
+}
+.cart-item:hover .delete-item{display:block;cursor:pointer}
